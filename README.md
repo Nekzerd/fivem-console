@@ -1,6 +1,6 @@
 <h1> FiveM - Console </h1>
 <br>
-Here is a script that allows you to manage your server easily!
+Here is a script that allows you to manage your server easily !
 <br>
 <br>
 With this script you can :
