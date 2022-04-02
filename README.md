@@ -1,4 +1,4 @@
-<h1> fivem-console </h1>
+<h1> FiveM - Console </h1>
 <br>
 Here is a script that allows you to manage your server easily!
 <br>
