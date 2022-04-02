@@ -18,8 +18,7 @@ echo [1] Server Page
 echo [2] Create a server backup
 echo [3] Delete server cache
 echo [4] Social Network
-echo [5] ReadMe
-echo [6] Exit the console
+echo [5] Exit the console
 echo.
 echo.
 set /p answer=""
@@ -27,18 +26,8 @@ if /i {%ANSWER%}=={1} (goto :server_page)
 if /i {%ANSWER%}=={2} (goto :backup_server)
 if /i {%ANSWER%}=={3} (goto :delete_cache_server)
 if /i {%ANSWER%}=={4} (goto :social_network)
-if /i {%ANSWER%}=={5} (goto :read_me)
-if /i {%ANSWER%}=={6} (goto :exit_console)
+if /i {%ANSWER%}=={5} (goto :exit_console)
 exit
-
-:read_me
-echo.
-echo.
-echo [SYSTEM] - Opening the README file...
-ping localhost -n 2 >nul
-start /max README.md
-goto :menuconsole
-echo.
 
 :social_network
 echo.
